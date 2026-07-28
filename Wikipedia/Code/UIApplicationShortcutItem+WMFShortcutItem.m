@@ -5,9 +5,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-NSString *const WMFIconShortcutTypeSearch = @"org.wikimedia.wikipedia.icon-shortcut-search";
-NSString *const WMFIconShortcutTypeRandom = @"org.wikimedia.wikipedia.icon-shortcut-random";
-NSString *const WMFIconShortcutTypeNearby = @"org.wikimedia.wikipedia.icon-shortcut-nearby";
+NSString *const WMFIconShortcutTypeSearch = @"info.pylapp.wikipedia.icon-shortcut-search";
+NSString *const WMFIconShortcutTypeRandom = @"info.pylapp.wikipedia.icon-shortcut-random";
+NSString *const WMFIconShortcutTypeNearby = @"info.pylapp.wikipedia.icon-shortcut-nearby";
 
 @implementation UIApplicationShortcutItem (WMFShortcutItem)
 

@@ -78,7 +78,7 @@ public final class WMFDataEnvironment: ObservableObject, @unchecked Sendable {
         set { environmentLock.withLock { _crossProcessUserDefaultsStore = newValue } }
     }
     private var _crossProcessUserDefaultsStore: WMFKeyValueStore? = {
-        guard let defaults = UserDefaults(suiteName: "group.org.wikimedia.wikipedia") else {
+        guard let defaults = UserDefaults(suiteName: "group.info.pylapp.wikipedia") else {
             return nil
         }
         return WMFUserDefaultsStore(defaults: defaults)

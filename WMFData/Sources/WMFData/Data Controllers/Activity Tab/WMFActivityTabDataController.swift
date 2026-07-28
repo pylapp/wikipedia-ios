@@ -208,7 +208,7 @@ public actor WMFActivityTabDataController {
 
     // MARK: - Reading Challenge 2026
 
-    private static let sharedGroupID = "group.org.wikimedia.wikipedia"
+    private static let sharedGroupID = "group.info.pylapp.wikipedia"
 
     public func getMostRecentReadDateTime() async throws -> Date? {
         let dataController = try WMFPageViewsDataController()

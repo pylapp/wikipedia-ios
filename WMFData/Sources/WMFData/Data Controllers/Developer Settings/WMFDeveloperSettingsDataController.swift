@@ -152,7 +152,7 @@ public protocol WMFDeveloperSettingsDataControlling: AnyObject {
 
     // MARK: - Reading Challenge Forced States
 
-    private var sharedDefaults: UserDefaults? { UserDefaults(suiteName: "group.org.wikimedia.wikipedia") }
+    private var sharedDefaults: UserDefaults? { UserDefaults(suiteName: "group.info.pylapp.wikipedia") }
 
     private func loadSharedStore(_ key: WMFUserDefaultsKey) -> Any? {
         sharedDefaults?.value(forKey: key.rawValue)

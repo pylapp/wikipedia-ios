@@ -18,8 +18,8 @@ class MockAppDelegate: UIResponder, UIApplicationDelegate {
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private static let backgroundFetchInterval = TimeInterval(10800) // 3 Hours
-    private static let backgroundAppRefreshTaskIdentifier = "org.wikimedia.wikipedia.appRefresh"
-    private static let backgroundDatabaseHousekeeperTaskIdentifier = "org.wikimedia.wikipedia.databaseHousekeeper"
+    private static let backgroundAppRefreshTaskIdentifier = "info.pylapp.wikipedia.appRefresh"
+    private static let backgroundDatabaseHousekeeperTaskIdentifier = "info.pylapp.wikipedia.databaseHousekeeper"
     
     // TODO: Refactor background task refresh and notification token registration logic out of WMFAppViewController. Then we can then move tab bar instantiation into SceneDelegate.
     let appViewController = WMFAppViewController()

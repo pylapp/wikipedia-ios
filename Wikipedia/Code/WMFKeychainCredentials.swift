@@ -8,9 +8,9 @@ struct WMFKeychainCredentials {
     //    stored as properties of the struct, instead they are only ever read from the keychain on demand."
     // Per the note userName and password are implemented as computed properties.
     
-    fileprivate let userNameKey = "org.wikimedia.wikipedia.username"
-    fileprivate let passwordKey = "org.wikimedia.wikipedia.password"
-    fileprivate let hostKey = "org.wikimedia.wikipedia.host"
+    fileprivate let userNameKey = "info.pylapp.wikipedia.username"
+    fileprivate let passwordKey = "info.pylapp.wikipedia.password"
+    fileprivate let hostKey = "info.pylapp.wikipedia.host"
     
     public var userName: String? {
         get {

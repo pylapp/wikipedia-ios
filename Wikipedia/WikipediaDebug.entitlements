@@ -16,14 +16,16 @@
 		<string>applinks:en.m.wikipedia.beta.wmflabs.org</string>
 	</array>
 	<key>com.apple.developer.in-app-payments</key>
-	<array/>
+	<array>
+		<string>merchant.info.pylapp.wikipedia</string>
+	</array>
 	<key>com.apple.developer.usernotifications.time-sensitive</key>
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.info.pylapp.wikipedia$(SIGNING_DISAMBIGUATOR)</string>
-		<string>group.info.pylapp.wikipedia$(SIGNING_DISAMBIGUATOR).alpha</string>
-		<string>group.info.pylapp.wikipedia$(SIGNING_DISAMBIGUATOR).beta</string>
+		<string>group.info.pylapp.wikipedia</string>
+		<string>group.info.pylapp.wikipedia.alpha</string>
+		<string>group.info.pylapp.wikipedia.beta</string>
 	</array>
 </dict>
 </plist>

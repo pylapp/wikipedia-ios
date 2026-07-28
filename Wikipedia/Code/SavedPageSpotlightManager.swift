@@ -77,7 +77,7 @@ public class WMFSavedPageSpotlightManager: NSObject {
                 
                 searchableItemAttributes.keywords?.append("Saved")
                 
-                let item = CSSearchableItem(uniqueIdentifier: identifier, domainIdentifier: "org.wikimedia.wikipedia", attributeSet: searchableItemAttributes)
+                let item = CSSearchableItem(uniqueIdentifier: identifier, domainIdentifier: "info.pylapp.wikipedia", attributeSet: searchableItemAttributes)
                 item.expirationDate = NSDate.distantFuture
                 
                 CSSearchableIndex.default().indexSearchableItems([item]) { (error) in

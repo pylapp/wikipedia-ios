@@ -4,8 +4,8 @@
 <dict>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>org.wikimedia.wikipedia.appRefresh</string>
-		<string>org.wikimedia.wikipedia.databaseHousekeeper</string>
+		<string>info.pylapp.wikipedia.appRefresh</string>
+		<string>info.pylapp.wikipedia.databaseHousekeeper</string>
 	</array>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
@@ -53,7 +53,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>org.wikimedia.wikipedia</string>
+			<string>info.pylapp.wikipedia</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>wikipedia</string>
@@ -87,13 +87,13 @@
 	<string>Save photos from Wikipedia to your photo library</string>
 	<key>NSUserActivityTypes</key>
 	<array>
-		<string>org.wikimedia.wikipedia.explore</string>
-		<string>org.wikimedia.wikipedia.settings</string>
-		<string>org.wikimedia.wikipedia.saved</string>
-		<string>org.wikimedia.wikipedia.history</string>
-		<string>org.wikimedia.wikipedia.search</string>
-		<string>org.wikimedia.wikipedia.article</string>
-		<string>org.wikimedia.wikipedia.searchresults</string>
+		<string>info.pylapp.wikipedia.explore</string>
+		<string>info.pylapp.wikipedia.settings</string>
+		<string>info.pylapp.wikipedia.saved</string>
+		<string>info.pylapp.wikipedia.history</string>
+		<string>info.pylapp.wikipedia.search</string>
+		<string>info.pylapp.wikipedia.article</string>
+		<string>info.pylapp.wikipedia.searchresults</string>
 	</array>
 	<key>UIAppFonts</key>
 	<array>
