@@ -1,3 +1,19 @@
+Disclaimer
+==========
+
+> [!CAUTION]
+>
+> ( ˶°ㅁ°) !! **This is a fork of [wikimedia/wikipedia-ios](https://github.com/wikimedia/wikipedia-ios)**
+> 
+> The aim of this project is to submit evolutions.
+> This is not the official repository of the app.
+> You should not submit bug reports, issues or pull requests to this fork.
+> 
+> Last constributions from here:
+> - `[T433393] Fix missing accessibility header trait on dates for search view and Voice Over` ([#6040](https://github.com/wikimedia/wikipedia-ios/pull/6040))
+> - `[T433387] Fix vocalization of modified articles number and chart` ([#6038](https://github.com/wikimedia/wikipedia-ios/pull/6038))
+> - `[T433378] Fix Voice Over rendering for articles cards` ([#6037](https://github.com/wikimedia/wikipedia-ios/pull/6037))
+
 # Wikipedia iOS
 The official Wikipedia iOS app.
 
