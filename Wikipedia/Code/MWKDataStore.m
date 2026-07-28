@@ -20,10 +20,10 @@ static const NSInteger WMFCurrentLibraryVersion = 20;
 NSString *const WMFCoreDataSynchronizerInfoFileName = @"Wikipedia.info";
 
 NSString *const WMFMainContextCrossProcessNotificiationChannelNameKey = @"CrossProcessNotificiationChannelName";
-NSString *const WMFMainContextCrossProcessNotificationChannelNamePrefix = @"org.wikimedia.wikipedia.cd-cpn-";
+NSString *const WMFMainContextCrossProcessNotificationChannelNamePrefix = @"info.pylapp.wikipedia.cd-cpn-";
 
 NSString *const WMFCacheContextCrossProcessNotificiationChannelNameKey = @"CacheContextCrossProcessNotificiationChannelName";
-NSString *const WMFCacheContextCrossProcessNotificiationChannelNamePrefix = @"org.wikimedia.wikipedia.cache-cd-cpn-";
+NSString *const WMFCacheContextCrossProcessNotificiationChannelNamePrefix = @"info.pylapp.wikipedia.cache-cd-cpn-";
 
 @interface MWKDataStore () <WMFAuthenticationManagerDelegate, WMFSessionAuthenticationDelegate>
 

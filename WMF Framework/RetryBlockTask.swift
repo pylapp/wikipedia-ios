@@ -3,7 +3,7 @@ import Foundation
 /// Retry executing a block a number of times waiting for a success or failure.
 public class RetryBlockTask {
 
-    private let queue = DispatchQueue(label: "org.wikimedia.wikipedia.RetryBlockTask")
+    private let queue = DispatchQueue(label: "info.pylapp.wikipedia.RetryBlockTask")
 
     private var retryCount: Int
     private let retryInterval: TimeInterval

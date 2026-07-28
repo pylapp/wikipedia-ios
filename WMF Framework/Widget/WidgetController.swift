@@ -9,13 +9,13 @@ public final class WidgetController: NSObject {
     // MARK: Nested Types
 
     public enum SupportedWidget: String {
-        case featuredArticle = "org.wikimedia.wikipedia.widgets.featuredArticle"
-        case onThisDay = "org.wikimedia.wikipedia.widgets.onThisDay"
-        case pictureOfTheDay = "org.wikimedia.wikipedia.widgets.potd"
-        case topRead = "org.wikimedia.wikipedia.widgets.topRead"
-        case search = "org.wikimedia.wikipedia.widgets.search"
-        case lockscreenSearch = "org.wikimedia.wikipedia.widgets.lockscreen-search"
-        case randomWidget = "org.wikimedia.wikipedia.widgets.readingChallenge" // stays as reading challenge to update 
+        case featuredArticle = "info.pylapp.wikipedia.widgets.featuredArticle"
+        case onThisDay = "info.pylapp.wikipedia.widgets.onThisDay"
+        case pictureOfTheDay = "info.pylapp.wikipedia.widgets.potd"
+        case topRead = "info.pylapp.wikipedia.widgets.topRead"
+        case search = "info.pylapp.wikipedia.widgets.search"
+        case lockscreenSearch = "info.pylapp.wikipedia.widgets.lockscreen-search"
+        case randomWidget = "info.pylapp.wikipedia.widgets.readingChallenge" // stays as reading challenge to update 
 
         public var identifier: String {
             return self.rawValue

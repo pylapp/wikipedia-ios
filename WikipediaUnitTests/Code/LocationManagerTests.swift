@@ -210,7 +210,7 @@ final class LocationManagerTests: XCTestCase {
         XCTAssertEqual(delegate.location, location1)
 
         // Check the error is not propagated when the monitoring is stopped.
-        let error = NSError(domain: "org.wikimedia.wikipedia.test", code: -1, userInfo: nil)
+        let error = NSError(domain: "info.pylapp.wikipedia.test", code: -1, userInfo: nil)
         mockCLLocationManager.simulate(error: error)
         XCTAssertNil(delegate.error)
     }
@@ -218,7 +218,7 @@ final class LocationManagerTests: XCTestCase {
     func testReceivingError() {
         locationManager.startMonitoringLocation()
 
-        let error = NSError(domain: "org.wikimedia.wikipedia.test", code: -1, userInfo: nil)
+        let error = NSError(domain: "info.pylapp.wikipedia.test", code: -1, userInfo: nil)
         mockCLLocationManager.simulate(error: error)
         XCTAssertEqual((delegate.error as NSError?), error)
     }
