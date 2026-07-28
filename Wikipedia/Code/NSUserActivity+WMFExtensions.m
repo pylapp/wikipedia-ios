@@ -31,7 +31,7 @@ __attribute__((annotate("returns_localized_nsstring"))) static inline NSString *
 }
 
 + (instancetype)wmf_activityWithType:(NSString *)type {
-    NSUserActivity *activity = [[NSUserActivity alloc] initWithActivityType:[NSString stringWithFormat:@"org.wikimedia.wikipedia.%@", [type lowercaseString]]];
+    NSUserActivity *activity = [[NSUserActivity alloc] initWithActivityType:[NSString stringWithFormat:@"info.pylapp.wikipedia.%@", [type lowercaseString]]];
 
     activity.eligibleForHandoff = YES;
     activity.eligibleForSearch = YES;

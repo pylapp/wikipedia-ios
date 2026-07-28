@@ -80,7 +80,7 @@ private extension WMFRandomWidgetViewModel.DisplaySet {
 
     static func dailyIndex(optionsCount: Int) -> Int {
         guard optionsCount > 0,
-              let userDefaults = UserDefaults(suiteName: "group.org.wikimedia.wikipedia") else {
+              let userDefaults = UserDefaults(suiteName: "group.info.pylapp.wikipedia") else {
             return 0
         }
         let today = Calendar.current.startOfDay(for: Date())
